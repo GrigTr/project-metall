@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Металл</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__logo">
+                    <img width="48" height="48" class="logo-pic" src="img/logo.png" alt="Логотип - Проминтерлом">
+                    Проминтерлом
+                </li>
+                <li class="navigation__links">
+                    <ul class="links">
+                        <li data-target="prices" class="link">Цены</li>
+                        <li data-target="about-us" class="link">О компании</li>
+                        <li data-target="forma" class="link">Контакты</li>
+                    </ul>
+                    <div class="outer-menu">
+                        <input class="checkbox-toggle" type="checkbox">
+                        <div class="hamburger">
+                          <div></div>
+                        </div>
+                        <div class="menu">
+                          <div>
+                            <div>
+                              <ul>
+                                <li><a data-target="prices" class="link" href="#">Цены</a></li>
+                                <li><a data-target="about-us" class="link" href="#">О компании</a></li>
+                                <li><a data-target="forma" class="link" href="#">Контакты</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </li>
+                <li class="navigation__tel">
+                    <a href="tel:+79012345678">+7 901 234-56-78</a>
+                </li>
+                <li class="navigation__button">
+                    <button class="button button--nav button-to-form">Обратный звонок</button>
+                </li>
+            </ul>
+        </nav>
+        <div class="container container--header">
+            <h1 class="header__title">Покупаем металлолом от 3 тонн в Волгограде и области</h1>
+            <h2 class="header__subtitle">Гарантируем своевременную оплату и&nbsp;честную цену. Обеспечим самовывоз. Работаем с&nbsp;юридическими 
+                и&nbsp;физическими лицами.
+            </h2>
+            <button class="button header__button button-to-form">Оставить заявку</button>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="services">
+                <h3 class="visually-hidden">Наши услуги</h3>
+                <ul class="services__list">
+                    <li class="services__item">
+                        <img src="img/molot.svg" width="80" height="80" class="services__icon" alt="icon">
+                        <div class="services__text-block">
+                            <p class="services__title">Демонтаж и переработка</p>
+                            <p class="services__text">
+                                Выполняем демонтаж и&nbsp;порезку любых металлоконструкций.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="services__item">
+                        <img src="img/transp.svg" width="80" height="80" class="services__icon" alt="icon">
+                        <div class="services__text-block">
+                            <p class="services__title">Погрузка и транспортировка</p>
+                            <p class="services__text">
+                                Осуществляем погрузку 
+                                и&nbsp;вывоз металлолома своим 
+                                транспортом
+                            </p>
+                        </div>
+                    </li>
+                    <li class="services__item">
+                        <img src="img/rubl.svg" width="80" height="80" class="services__icon" alt="icon">
+                        <div class="services__text-block">
+                            <p class="services__title">Любая форма расчета</p>
+                            <p class="services__text">
+                                Наличный и&nbsp;безналичный 
+                                расчет, перевод на&nbsp;карту. 
+                                Оплата сразу.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section id="prices" class="prices">
+                <h2 class="title prices__title">Цены <small>на сегодня, <span id="c-date">1</span> <span id="c-month">марта</span> <span id="c-year">2019</span></small></h2>
+                <table class="table">
+                    <caption class="table__title">Лом черных металлов</caption>
+                    <tr>
+                        <th>Категория</th>
+                        <th>Описание</th>
+                        <th>Цена, ₽/кг</th>
+                    </tr>
+                    <tr>
+                        <td>2A</td>
+                        <td>Лом габаритный стальной кусковой, не более 600×350×250 мм</td>
+                        <td>14,7</td>
+                    </tr>
+                    <tr>
+                        <td>3A</td>
+                        <td>Лом габаритный стальной кусковой, не более  1500×500×500 мм, 
+                                толщина стенки не менее 4 мм</td>
+                        <td>14,7</td>
+                    </tr>
+                    <tr>
+                        <td>5A</td>
+                        <td>Негабаритный стальной лом </td>
+                        <td>14,7</td>
+                    </tr>
+                    <tr>
+                        <td>12A</td>
+                        <td>Жесть, стальной лом для прессования</td>
+                        <td>14,7</td>
+                    </tr>
+                    <tr>
+                        <td>13A</td>
+                        <td>Проволока, арматура, длина не более 1500 мм</td>
+                        <td>14,7</td>
+                    </tr>
+                    <tr>
+                        <td>16A</td>
+                        <td>Стальная стружка</td>
+                        <td>7,0</td>
+                    </tr>
+                    <tr>
+                        <td>17A</td>
+                        <td>Лом чугуна габаритный</td>
+                        <td>14,7</td>
+                    </tr>
+                    <tr>
+                        <td>20A</td>
+                        <td>Лом чугуна негабаритный</td>
+                        <td>14,7</td>
+                    </tr>
+                </table>
+                <table class="table">
+                        <caption class="table__title">Лом цветных металлов</caption>
+                        <tr>
+                            <th>Наименование</th>
+                            <th>Вид</th>
+                            <th>Цена, ₽/кг</th>
+                        </tr>
+                        <tr>
+                                <td rowspan="3">алюминий</td>
+                                <td>электротехнический</td>
+                                <td>90</td>
+                            </tr>
+                            <tr>
+                                <td>микс</td>
+                                <td>60</td>
+                            </tr>
+                            <tr>
+                                <td>стружка</td>
+                                <td>30</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">медь</td>
+                                <td>микс</td>
+                                <td>370</td>
+                            </tr>
+                            <tr>
+                                <td>стружка</td>
+                                <td>290</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">латунь</td>
+                                <td>микс</td>
+                                <td>220</td>
+                            </tr>
+                            <tr>
+                                <td>стружка</td>
+                                <td>220</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">бронза</td>
+                                <td>микс</td>
+                                <td>240</td>
+                            </tr>
+                            <tr>
+                                <td>стружка</td>
+                                <td>240</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="3">нержавеющая сталь</td>
+                                <td>10%</td>
+                                <td>50</td>
+                            </tr>
+                            <tr>
+                                <td>8%</td>
+                                <td>40</td>
+                            </tr>
+                            <tr>
+                                <td>стружка</td>
+                                <td>15</td>
+                            </tr>
+                    </table>
+            </section>
+        </div>
+        <section class="banner">
+            <div class="container">
+                <h4 class="banner__atention">
+                        Внимание! Указанные цены на&nbsp;металлолом носят 
+                        ознакомительный характер. В&nbsp;каждом случае цена 
+                        определяется индивидуально исходя из&nbsp;категории, 
+                        количества и&nbsp;местонахождения лома, а&nbsp;также 
+                        необходимости демонтажа, переработки 
+                        и&nbsp;транспортировки
+                </h4>
+                <article class="banner__aside">
+                    <h3 class="aside__title">Узнайте цену на&nbsp;ваш металлолом за&nbsp;15&nbsp;минут</h3>
+                    <p class="aside__text">Отправьте фотографии в Viber или WhatsApp по телефону 
+                            <a href="tel:+79012345678">+7 901 234-56-78</a> или на почту <a href="mailto:info@prominterlom.ru">info@prominterlom.ru</a></p>
+                    <ul class="aside__list">
+                        <li class="aside__item">
+                            <a href="#" class="aside__link">
+                                <img width="25" height="25" class="aside__icon" src="img/viber-ico.svg" alt="viber">
+                            </a>
+                        </li>
+                        <li class="aside__item">
+                            <a href="#" class="aside__link">
+                                <img width="25" height="25" class="aside__icon" src="img/whatsApp-icon.svg" alt="whats'upr">
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+        <div class="container">
+            <section id="about-us" class="about-us">
+                <header class="about-us__item">
+                    <h2 class="title about-us__title">О компании</h2>
+                    <p class="about-us__text">
+                        Мы&nbsp;работаем с&nbsp;2007&nbsp;года, у&nbsp;нас есть 
+                        огромный опыт работы с&nbsp;металлоломом. 
+                        Мы&nbsp;располагаем всем необходимым для 
+                        приема и&nbsp;переработки лома больших 
+                        объемов. Мы&nbsp;знаем потребности каждого 
+                        клиента и&nbsp;настроены на&nbsp;долгосрочное 
+                        сотрудничество.
+                    </p>
+                </header>
+                <div class="about-us__item">
+                    <img class="about-us__big-car unvisible" data-src="img/big-car.jpg" alt="Грузовик">
+                    <small>Вывозим лом и&nbsp;поставляем нашим 
+                    партнерам с&nbsp;помощью собственного 
+                    автопарка</small>
+                </div>
+                <div class="about-us__item about-us__item--partners">
+                    <h2 class="about-us__title about-us__title--partners">Cотрудничаем с лидерами отрасли</h2>
+                    <ul class="about-us__partners">
+                        <li class="about-us__partner">
+                            <img height="80" class="partner-logo" src="img/rusal.jpg" alt="Русал">
+                        </li>
+                        <li class="about-us__partner">
+                            <img height="80" class="partner-logo" src="img/tmk.jpg" alt="Трубная металлургическая компания"> 
+                        </li>
+                        <li class="about-us__partner">
+                            <img height="80" class="partner-logo" src="img/red-october.jpg" alt="Красный октябрь">
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="news">
+                <h2 class="news__title">Новости</h2>
+                <ul class="news__list">
+                    <li class="news__item">
+                        <time datetime="1-03-2019" class="news__date">1.03.2019</time>
+                        <p class="news__text">Вывозим лом и&nbsp;поставляем нашим партнерам 
+                                с&nbsp;помощью собственного автопарка.</p>
+                    </li>
+                    <li class="news__item">
+                        <time datetime="28-02-2019" class="news__date">28.02.2019</time>
+                        <p class="news__text">Еще одна новость про закупочные цены предприятиями
+                                потребителями металлолома</p>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="page-footer">
+        <div class="container">
+        <section id="forma" class="forma">
+            <h2 class="title forma__main-title">Контакты</h2>
+            <div class="forms__telephones">
+                <a href="tel:79012345678" class="forma__tel">+7 901 234-56-78</a>
+                <ul class="aside__list">
+                    <li class="aside__item">
+                        <a href="#" class="aside__link">
+                            <img width="25" height="25" class="aside__icon" src="img/viber-ico.svg" alt="viber">
+                        </a>
+                    </li>
+                    <li class="aside__item">
+                        <a href="#" class="aside__link">
+                            <img width="25" height="25" class="aside__icon" src="img/whatsApp-icon.svg" alt="whats'upr">
+                        </a>
+                    </li>
+                </ul>
+                <a href="tel:79012345678" class="forma__tel">+7 901 234-56-78</a>
+            </div>
+            <p class="forma__adress">Улица Могилевская, 23, офис 209, г. Волгоград</p>
+            <a class="forms__mail" href="mailto:info@prominterlom.ru">info@prominterlom.ru</a>
+            <div class="forma__container">
+                <h3 id="page-form" class="forma__title">Напишите нам</h3>
+                <form name="page-form" class="page-form" action="send.php" method="POST">
+                    <label class="form-section">
+                        Сообщение
+                        <textarea rows="6" type="text" class="form__input" name="message"></textarea>
+                    </label>
+                    <label class="form-section">
+                        Почта или телефон
+                        <input type="text" class="form__input form__input--tel" name="contacts">
+                    </label>
+                    <label class="form-section">
+                        <input name="license" type="checkbox" class="visually-hidden">
+                        <span class="checkbox__license">Согласие на обработку персональных данных</span>
+                    </label>
+                    <input type="submit" value="Отправить" class="button form__buton">
+                </form>
+                <div class="form-popup">
+                    <svg class="icon-error" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg" fill="rgba(1,73,193,.95)"><path d="m497 0h-482c-8.285156 0-15 6.714844-15 15v360c0 8.285156 6.714844 15 15 15h166v92h-45c-8.285156 0-15 6.714844-15 15s6.714844 15 15 15h240c8.285156 0 15-6.714844 15-15s-6.714844-15-15-15h-45v-92h166c8.285156 0 15-6.714844 15-15 0-14.675781 0-345.308594 0-360 0-8.285156-6.714844-15-15-15zm-467 30h452v210h-452zm271 452h-90v-92h90zm-271-122v-90h452v90zm0 0"></path><path d="m166 90c-8.285156 0-15 6.714844-15 15v15h-30v-45c0-8.285156-6.714844-15-15-15s-15 6.714844-15 15v60c0 8.285156 6.714844 15 15 15h45v45c0 8.285156 6.714844 15 15 15s15-6.714844 15-15v-90c0-8.285156-6.714844-15-15-15zm0 0"></path><path d="m406 90c-8.285156 0-15 6.714844-15 15v15h-30v-45c0-8.285156-6.714844-15-15-15s-15 6.714844-15 15v60c0 8.285156 6.714844 15 15 15h45v45c0 8.285156 6.714844 15 15 15s15-6.714844 15-15v-90c0-8.285156-6.714844-15-15-15zm0 0"></path><path d="m286 60h-60c-8.285156 0-15 6.714844-15 15v120c0 8.285156 6.714844 15 15 15h60c8.285156 0 15-6.714844 15-15v-120c0-8.285156-6.714844-15-15-15zm-15 120h-30v-90h30zm0 0"></path><path d="m286 300h-60c-8.285156 0-15 6.714844-15 15s6.714844 15 15 15h60c8.285156 0 15-6.714844 15-15s-6.714844-15-15-15zm0 0"></path></svg>
+                    <svg class="icon-sucsess" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                        <g>
+                            <g>
+                                <g>
+                                    <g>
+                                        <g>
+                                            <g>
+                                                <g>
+                                                    <g>
+                                                        <path fill="#32BEA6" d="M504.1,256C504.1,119,393,7.9,256,7.9C119,7.9,7.9,119,7.9,256C7.9,393,119,504.1,256,504.1          C393,504.1,504.1,393,504.1,256z"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                            <g>
+                                <g>
+                                    <path fill="#FFFFFF" d="M392.6,172.9c-5.8-15.1-17.7-12.7-30.6-10.1c-7.7,1.6-42,11.6-96.1,68.8c-22.5,23.7-37.3,42.6-47.1,57     c-6-7.3-12.8-15.2-20-22.3C176.7,244.2,152,229,151,228.4c-10.3-6.3-23.8-3.1-30.2,7.3c-6.3,10.3-3.1,23.8,7.2,30.2     c0.2,0.1,21.4,13.2,39.6,31.5c18.6,18.6,35.5,43.8,35.7,44.1c4.1,6.2,11,9.8,18.3,9.8c1.2,0,2.5-0.1,3.8-0.3     c8.6-1.5,15.4-7.9,17.5-16.3c0.1-0.2,8.8-24.3,54.7-72.7c37-39.1,61.7-51.5,70.3-54.9c0.1,0,0.1,0,0.3,0c0,0,0.3-0.1,0.8-0.4     c1.5-0.6,2.3-0.8,2.3-0.8c-0.4,0.1-0.6,0.1-0.6,0.1l0-0.1c4-1.7,11.4-4.9,11.5-5C393.3,196.1,397,184.1,392.6,172.9z"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <p class="popup-content"></p>
+                    <small class="sucsess-add">Мы свяжемся с вами в ближайшее время</small>
+                </div>
+                <div class="form-loader">
+                    <h4>Отправка данных</h4>
+                    <div class="sk-double-bounce">
+                        <div class="sk-child sk-double-bounce-1"></div>
+                        <div class="sk-child sk-double-bounce-2"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <p class="copyright">&copy;&nbsp;2007&ndash;2019 Проминтерлом</p>
+    </div>
+    </footer>
+    <script src="js/nav.js"></script>
+</body>
+</html>
